@@ -33,7 +33,7 @@ Para enviar emails, é necessário configurar as informações de acesso à cont
 
 1.  É necessário gerar uma senha de aplicativo para o Gmail. Siga este [guia](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVJIUng3WFExTzNzQjc1QzAtU2JPN3RULUQtZ3xBQ3Jtc0trNnlXUXZXQXJXNjdFb1VxQTgxRDJXSGVZNXAxZERoSER2RnRtSmFmdlFXRDBvUjdqS3VZVnRsYms3Y0FMaVBjRklJbE5ZelRhWkVZbnNyeU92aFJmb2psSFYzVmE0Q3p2UTYwbGc2clV4QTNMMlBNZw&q=https%3A%2F%2Fsupport.google.com%2Faccounts%2Fanswer%2F185833&v=ZBleZzJf6ro) para aprender como gerar a senha de aplicativo.
     
-2.  Crie um arquivo chamado `email.properties` no caminho `src/java/resorces` e adicione o seguinte conteúdo:
+2.  Crie um arquivo chamado `secret.properties` no caminho `src/java/resources` e adicione o seguinte conteúdo:
     
 ```properties
 spring.mail.host=smtp.gmail.com
